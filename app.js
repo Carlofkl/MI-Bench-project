@@ -38,7 +38,7 @@
     if (!all) {
       (examples[tab.dataset.example] || []).forEach(item => {
         const button = document.createElement('button');
-        button.className = 'zoomable sample-card';
+        button.className = 'zoomable sample-card' + (item.width / item.height > 4 ? ' wide-example' : '');
         button.dataset.image = item.src;
         button.dataset.caption = item.alt;
         button.setAttribute('aria-label', 'Enlarge ' + item.alt);
