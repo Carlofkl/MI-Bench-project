@@ -1,6 +1,6 @@
 # Asset provenance
 
-Manuscript: user-supplied `_ArXiv__MI_Bench.pdf`, 36 pages (copied unchanged to `assets/paper/MI-Bench.pdf`).
+Manuscript: user-supplied `_ArXiv__MI_Bench.pdf`, 36 pages (copied unchanged to `assets/paper/MoI-Bench.pdf`).
 
 | Asset | Source |
 | --- | --- |
@@ -19,3 +19,5 @@ The website uses the paper's existing measurements and examples. No new model ou
 Color palette follows https://carlofkl.github.io/dreamlite/ (#2563eb, #1d4ed8, #f8fafc, #1e293b, #64748b, #e2e8f0).
 
 Supplement examples updated from `_ArXiv__MI_Bench (1).pdf` (39 pages), Figures 7–12 on pages 34–39: 64 separate crops preserving original titles, prompts and model labels. Examples 63–64 retain their full-width layouts. Paper download is unchanged.
+
+Website renamed to MoI-Bench / MoI-Eval. The downloadable PDF filename is MoI-Bench.pdf; its manuscript contents remain the supplied version pending a renamed manuscript.

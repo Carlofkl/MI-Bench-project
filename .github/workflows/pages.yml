@@ -1,4 +1,4 @@
-name: Deploy MI-Bench to GitHub Pages
+name: Deploy MoI-Bench to GitHub Pages
 on:
   push:
     branches: [main]

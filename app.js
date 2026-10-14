@@ -1,5 +1,5 @@
 (() => {
-  const config = window.MI_BENCH_CONFIG || {};
+  const config = window.MOI_BENCH_CONFIG || {};
   const toast = document.getElementById('toast');
   let toastTimer;
   function notify(message) {
@@ -26,7 +26,7 @@
       });
     }
   });
-  const examples = window.MI_BENCH_EXAMPLES || {};
+  const examples = window.MOI_BENCH_EXAMPLES || {};
   const tabs = [...document.querySelectorAll('[data-example]')];
   function selectTab(tab) {
     tabs.forEach(t => { t.setAttribute('aria-selected', String(t === tab)); t.tabIndex = t === tab ? 0 : -1; });

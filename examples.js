@@ -1,4 +1,4 @@
-window.MI_BENCH_EXAMPLES = {
+window.MOI_BENCH_EXAMPLES = {
   "generation": [
     {
       "src": "assets/images/supplement/01.webp",

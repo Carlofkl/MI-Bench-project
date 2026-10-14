@@ -1,4 +1,4 @@
-# MI-Bench project page
+# MoI-Bench project page
 
 纯静态学术项目主页。无需 Node.js、npm 或构建步骤，可直接发布到 GitHub Pages。
 
@@ -22,19 +22,19 @@ python3 -m http.server 8000
 
 以上链接为空时显示 Coming soon，不会跳到假的仓库。作者与机构信息来自当前论文；可在 `index.html` 中修改。Bo Chen 和 Yang Pan 按作者要求标为 ByteDance。
 
-论文按钮指向 `assets/paper/MI-Bench.pdf`，可用最终公开版替换它。所有路径都是相对路径，支持 `https://<owner>.github.io/<repository>/` 子路径部署。
+论文按钮指向 `assets/paper/MoI-Bench.pdf`，可用最终公开版替换它。所有路径都是相对路径，支持 `https://<owner>.github.io/<repository>/` 子路径部署。
 
 ## GitHub Pages 发布（独立项目主页仓库）
 
-1. 将 **本目录内容** 上传至新仓库根目录，包括 `.github` 和 `.nojekyll`，而不是再套一层 `MI-Bench` 文件夹。
+1. 将 **本目录内容** 上传至新仓库根目录，包括 `.github` 和 `.nojekyll`，而不是再套一层 `MoI-Bench` 文件夹。
 2. 默认分支为 `main`。如果使用其他分支，修改 `.github/workflows/pages.yml` 的分支设置。
 3. 在仓库 Settings → Pages → Build and deployment 中选择 **GitHub Actions**。
-4. 推送到 `main` 后运行 `Deploy MI-Bench to GitHub Pages` 工作流，也可在 Actions 中手动运行。
+4. 推送到 `main` 后运行 `Deploy MoI-Bench to GitHub Pages` 工作流，也可在 Actions 中手动运行。
 5. 工作流成功后访问 Pages 显示的网址。
 
 也可删除工作流，使用 Pages 的 Deploy from a branch → main → / (root)。
 
-如果要把它保留在已有仓库的 `project page/MI-Bench/` 下：GitHub 工作流必须放在**仓库根目录** `.github/workflows/`，并将 `upload-pages-artifact` 的 `path` 改为 `project page/MI-Bench`。不要直接把当前嵌套工作流当作已有仓库的工作流。
+如果要把它保留在已有仓库的 `project page/MoI-Bench-project/` 下：GitHub 工作流必须放在**仓库根目录** `.github/workflows/`，并将 `upload-pages-artifact` 的 `path` 改为 `project page/MoI-Bench-project`。不要直接把当前嵌套工作流当作已有仓库的工作流。
 
 ## 内容与交互
 
@@ -53,7 +53,7 @@ python3 -m http.server 8000
 - `app.js`：图片放大、样例切换、资源链接和引用复制。
 - `site-config.js`：未来资源链接和 BibTeX。
 - `assets/images/`：WebP 论文图。
-- `assets/paper/MI-Bench.pdf`：用户提供的论文。
+- `assets/paper/MoI-Bench.pdf`：用户提供的论文。
 - `ASSETS.md`：图片出处。
 
 页面以 VBench 的学术项目页组织方式和 DreamLite 的配色为参考，HTML/CSS/JS 为本项目编写，未复制其源代码、图片或视频。所有字体使用系统字体，不依赖外部 CDN。

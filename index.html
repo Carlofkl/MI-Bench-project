@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="MI-Bench connects mobile image generation and editing needs with task-specific evaluation, model capability profiles, and mobile deployment measurements.">
+  <meta name="description" content="MoI-Bench connects mobile image generation and editing needs with task-specific evaluation, model capability profiles, and mobile deployment measurements.">
   <meta name="theme-color" content="#f7fafb">
-  <meta property="og:title" content="MI-Bench · Image Models on Mobile Devices">
+  <meta property="og:title" content="MoI-Bench · Image Models on Mobile Devices">
   <meta property="og:description" content="64 subtasks. Task-specific quality meets mobile deployability.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/images/overview.webp">
-  <title>MI-Bench — A Benchmark for Image Models on Mobile Devices</title>
+  <title>MoI-Bench — A Benchmark for Image Models on Mobile Devices</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="site-config.js" defer></script>
@@ -20,14 +20,14 @@
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <nav class="nav wrap" aria-label="Main navigation">
-    <a class="wordmark" href="#" aria-label="MI-Bench home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>MI-Bench<span class="brand-dot">.</span></a>
+    <a class="wordmark" href="#" aria-label="MoI-Bench home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>MoI-Bench<span class="brand-dot">.</span></a>
     <div class="nav-links"><a href="#benchmark">Benchmark</a><a href="#examples">Examples</a><a href="#results">Results</a><a href="#citation">Citation</a></div>
-    <a class="nav-paper" href="assets/paper/MI-Bench.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
+    <a class="nav-paper" href="assets/paper/MoI-Bench.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
   </nav>
 </header>
 <main id="main">
   <section class="hero" aria-labelledby="title">
-    <h1 id="title"><span class="hero-brand">MI-Bench</span><span class="hero-title">A Benchmark for Image Models on Mobile Devices</span></h1>
+    <h1 id="title"><span class="hero-brand">MoI-Bench</span><span class="hero-title">A Benchmark for Image Models on Mobile Devices</span></h1>
     <div class="authors" aria-label="Authors">
       <span>Kailai Feng<sup>1,*</sup></span><span>Haoxiang Rao<sup>2,*</sup></span><span>Yuxiang Wei<sup>3,†</sup></span><span>Bo Chen<sup>5</sup></span><br> 
       <span>Junsong Li<sup>4</sup></span><span>Yang Pan<sup>5</sup></span><span>Chengkun Cai<sup>1</sup></span><span>Jagmohan Chauhan<sup>1,†</sup></span>
@@ -35,7 +35,7 @@
     <div class="affiliations"><span><sup>1</sup> University College London</span><span><sup>2</sup> Nanjing University</span><span><sup>3</sup> The Hong Kong Polytechnic University</span><span><sup>4</sup> East China Normal University</span><span><sup>5</sup> ByteDance</span></div>
     <p class="equal-contribution"><sup>*</sup> Equal contribution &nbsp; <sup>†</sup> Co-corresponding authors</p>
     <div class="resource-links" aria-label="Project resources">
-      <a class="resource primary" href="assets/paper/MI-Bench.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Paper <span>↗</span></a>
+      <a class="resource primary" href="assets/paper/MoI-Bench.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Paper <span>↗</span></a>
       <a class="resource pending" data-resource="github" aria-disabled="true" role="link" tabindex="0"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></svg>GitHub <small>Coming soon</small></a>
       <a class="resource pending" data-resource="huggingface" aria-disabled="true" role="link" tabindex="0"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v7c0 4 16 4 16 0V5M4 12v7c0 4 16 4 16 0v-7"/></svg>Hugging Face <small>Coming soon</small></a>
     </div>
@@ -44,10 +44,10 @@
   <section class="overview wrap" id="benchmark" aria-labelledby="overview-title">
     <h2 id="overview-title" class="standalone-title">Benchmark overview</h2>
     <figure class="figure-shell overview-figure">
-      <button class="zoomable" data-image="assets/images/overview.webp" data-caption="MI-Bench overview: mobile needs, structured evaluation, and model improvement." aria-label="Enlarge the benchmark overview"><img src="assets/images/overview.webp" alt="MI-Bench overview with task examples, an Operation × Target × Criteria cube, and the Quality–Deployability map." fetchpriority="high" width="2638" height="1108"></button>
+      <button class="zoomable" data-image="assets/images/overview.webp" data-caption="MoI-Bench overview: mobile needs, structured evaluation, and model improvement." aria-label="Enlarge the benchmark overview"><img src="assets/images/overview.webp" alt="MoI-Bench overview with task examples, an Operation × Target × Criteria cube, and the Quality–Deployability map." fetchpriority="high" width="2638" height="1108"></button>
     </figure>
     <div class="stats" aria-label="Benchmark statistics"><div><strong>1,150</strong><span>samples</span></div><div><strong>64</strong><span>subtasks</span></div><div><strong>16 × 8</strong><span>operations × targets</span></div><div><strong>8</strong><span>evaluation criteria</span></div></div>
-    <div class="intro-copy"><h2>Beyond a single score.</h2><p>MI-Bench organizes everyday image requests by <em>what to change</em> and <em>what to change it on</em>. MI-Eval assesses task-specific quality, while mobile measurements show which capabilities fit on a device.</p></div>
+    <div class="intro-copy"><h2>Beyond a single score.</h2><p>MoI-Bench organizes everyday image requests by <em>what to change</em> and <em>what to change it on</em>. MoI-Eval assesses task-specific quality, while mobile measurements show which capabilities fit on a device.</p></div>
   </section>
 
   <section class="section examples-section" id="examples" aria-labelledby="examples-title">
@@ -91,7 +91,7 @@
 
   <section class="citation-section" id="citation" aria-labelledby="citation-title"><div class="wrap citation-layout"><div><h2 id="citation-title">BibTeX</h2></div><div class="code-box"><div class="code-top"><span>citation.bib</span><button id="copy-citation" disabled aria-label="Copy BibTeX citation">Copy BibTeX</button></div><pre id="bibtex" tabindex="0" aria-label="BibTeX citation">% BibTeX coming soon.</pre><span class="sr-only" id="copy-status" role="status"></span></div></div></section>
 </main>
-<footer class="footer wrap"><a class="wordmark" href="#">MI-Bench<span class="brand-dot">.</span></a></footer>
+<footer class="footer wrap"><a class="wordmark" href="#">MoI-Bench<span class="brand-dot">.</span></a></footer>
 <dialog id="lightbox" aria-label="Expanded research figure"><div class="lightbox-toolbar"><p id="lightbox-caption"></p><a id="original-image" target="_blank" rel="noopener">Open original ↗</a><button id="close-lightbox" aria-label="Close expanded figure">✕</button></div><div class="lightbox-scroll"><img id="lightbox-image" alt=""></div><p class="lightbox-help">Scroll to explore · Press Esc to close</p></dialog>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
